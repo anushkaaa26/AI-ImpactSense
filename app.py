@@ -822,8 +822,13 @@ st.markdown("""
 @st.cache_resource
 def load_model():
     try:
-        model = joblib.load("earthquake_impact_rf.pkl")
-        feature_order = joblib.load("feature_order.pkl")
+        # Get the directory where this script is located
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        # Construct absolute paths to model files
+        model_path = os.path.join(script_dir, "earthquake_impact_rf.pkl")
+        feature_path = os.path.join(script_dir, "feature_order.pkl")
+        model = joblib.load(model_path)
+        feature_order = joblib.load(feature_path)
         return model, feature_order, None
     except Exception as e:
         return None, None, str(e)
