@@ -55,13 +55,13 @@ The model uses the following seismic parameters for prediction:
 
 ## Project Structure
 AI-impactSense/
-├── app.py                     # Streamlit application
-├── requirements.txt           # Project dependencies
-├── earthquake_impact_rf.pkl   # Trained Random Forest model
-├── feature_order.pkl          # Feature ordering for inference
-├── README.md                  # Project documentation
-├── Infosys_Springboard.ipynb  # Preprocessing notebook
-└── complete_AI_ImpactSense.ipynb  # Full training & analysis 
+ ├── app.py                     # Streamlit application
+ ├── requirements.txt           # Project dependencies
+ ├── earthquake_impact_rf.pkl   # Trained Random Forest model
+ ├── feature_order.pkl          # Feature ordering for inference
+ ├── README.md                  # Project documentation
+ ├── Infosys_Springboard.ipynb  # Preprocessing notebook
+ └── complete_AI_ImpactSense.ipynb  # Full training & analysis 
 ---
 
 ## Deployment
