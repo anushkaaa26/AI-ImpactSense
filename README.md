@@ -54,6 +54,7 @@ The model uses the following seismic parameters for prediction:
 ---
 
 ## Project Structure
+```text
 AI-impactSense/
  ├── app.py                     # Streamlit application
  ├── requirements.txt           # Project dependencies
@@ -62,6 +63,7 @@ AI-impactSense/
  ├── README.md                  # Project documentation
  ├── Infosys_Springboard.ipynb  # Preprocessing notebook
  └── complete_AI_ImpactSense.ipynb  # Full training & analysis 
+```
 ---
 
 ## Deployment
